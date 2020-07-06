@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "icebreaker-bitsy-rescue")(type "Legacy")(uri "${KIPRJMOD}/icebreaker-bitsy-rescue.lib")(options "")(descr ""))
+  (lib (name "obsidian-boa")(type "KiCad")(uri "/home/greg/projects/obsidian-boa/hw/lib/obsidian-boa.kicad_sym")(options "")(descr ""))
+)

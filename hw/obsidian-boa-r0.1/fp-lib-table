@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "obsidian-boa")(type "KiCad")(uri "${KIPRJMOD}/../lib/obsidian-boa.pretty")(options "")(descr ""))
+)
