@@ -14,5 +14,5 @@ ESP32-S2 + PSRAM + FLASH
 ## Licence
  * Hardware in this repository is licenced under Creative Commons BY-SA
 
- ## OSHW
- TBD
+ ## OSHW Certification
+ TBD (Will apply when prototypes tested)
