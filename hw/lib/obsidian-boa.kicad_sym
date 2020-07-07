@@ -1,4 +1,4 @@
-(kicad_symbol_lib (version 20200126) (host kicad_symbol_editor "5.99.0-unknown-b48a627~101~ubuntu18.04.1")
+(kicad_symbol_lib (version 20200126) (host kicad_symbol_editor "5.99.0-unknown-476558e~101~ubuntu18.04.1")
   (symbol "obsidian-boa:ESP32-S2"
     (property "Reference" "U" (id 0) (at 0 41.91 0)
       (effects (font (size 1.27 1.27)))
@@ -18,7 +18,7 @@
       )
     )
     (symbol "ESP32-S2_1_1"
-      (pin input line (at -24.13 34.29 0) (length 3.81) hide
+      (pin input line (at -24.13 34.29 0) (length 3.81)
         (name "VDDA" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -26,11 +26,11 @@
         (name "LNA_IN" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 34.29 0) (length 3.81)
+      (pin input line (at -24.13 31.75 0) (length 3.81)
         (name "VDD3P3" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 34.29 0) (length 3.81) hide
+      (pin input line (at -24.13 31.75 0) (length 3.81) hide
         (name "VDD3P3" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
@@ -94,7 +94,7 @@
         (name "GPIO14" (effects (font (size 1.27 1.27))))
         (number "19" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 34.29 0) (length 3.81) hide
+      (pin input line (at -24.13 29.21 0) (length 3.81) hide
         (name "VDD3P3_RTC" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
@@ -122,7 +122,7 @@
         (name "GPIO20" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 34.29 0) (length 3.81) hide
+      (pin input line (at -24.13 29.21 0) (length 3.81)
         (name "VDD3P3_RTC_IO" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
@@ -134,7 +134,7 @@
         (name "SPICS1" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 34.29 0) (length 3.81) hide
+      (pin input line (at -24.13 29.21 0) (length 3.81) hide
         (name "VDD_SPI" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
@@ -194,7 +194,7 @@
         (name "MTDO" (effects (font (size 1.27 1.27))))
         (number "44" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 34.29 0) (length 3.81) hide
+      (pin input line (at -24.13 29.21 0) (length 3.81) hide
         (name "VDD3P3_CPU" (effects (font (size 1.27 1.27))))
         (number "45" (effects (font (size 1.27 1.27))))
       )
@@ -238,7 +238,7 @@
         (name "GPIO46" (effects (font (size 1.27 1.27))))
         (number "55" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 29.21 0) (length 3.81)
+      (pin input line (at -24.13 24.13 0) (length 3.81)
         (name "CHIP_PU" (effects (font (size 1.27 1.27))))
         (number "56" (effects (font (size 1.27 1.27))))
       )

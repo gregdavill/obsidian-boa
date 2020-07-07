@@ -1,4 +1,4 @@
-1594035278192
+3188116517192
 obsidian-boa
 0479480001
 
@@ -6,3 +6,10 @@ obsidian-boa
 0
 4
 1
+obsidian-boa
+LED_0603_1608Metric_Compact
+LED{space}SMD{space}0603{space}(1608{space}Metric),{space}square{space}(rectangular){space}end{space}terminal,{space}IPC_7351{space}nominal,{space}(Body{space}size{space}source:{space}http://www.tortai-tech.com/upload/download/2011102023233369053.pdf),{space}generated{space}with{space}kicad-footprint-generator
+diode
+0
+2
+2
