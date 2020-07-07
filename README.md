@@ -1,6 +1,8 @@
 # Obsidian Boa #
 
-     ~ Current Status: Early Design stage ~
+     ~ Current Status: Board routed, ready for review before ordering. ~
+     
+     Note: This design was performed in KiCad nightly , you will need a Nightly build to open and edit these source files.
 
 A simple compact ESP32-S2 development board
 

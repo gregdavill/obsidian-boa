@@ -10,13 +10,12 @@
 
   (paper "A4")
   (title_block
-    (title "iCEBreaker-bitsy")
-    (date "2020-06-10")
-    (rev "v1.0a")
-    (company "1BitSquared")
-    (comment 1 "© 2018-2020 1BitSquared <info@1bitsquared.com>")
-    (comment 2 "© 2018-2020 Piotr Esden-Tempski <piotr@esden.net>")
-    (comment 3 "© 2020 Jordi Pakey-Rodriguez <jordi@0xdec.im>")
+        (title "Obsidian Boa")
+    (date "2020-07-07")
+    (rev "r0.1")
+    (company "GsD")
+    (comment 1 "Inspired by 1BitSquared iceBitsy design")
+    (comment 3 "© 2020 Greg Davill <greg.davill@gmail.com>")
     (comment 4 "License: CC BY-SA 4.0")
   )
 
