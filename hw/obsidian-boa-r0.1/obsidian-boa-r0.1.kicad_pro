@@ -96,7 +96,7 @@
         "min_track_width": 0.15,
         "min_via_annulus": 0.049999999999999996,
         "min_via_diameter": 0.5,
-        "solder_mask_clearance": 0.049999999999999996,
+        "solder_mask_clearance": 0.055,
         "solder_mask_min_width": 0.0,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0

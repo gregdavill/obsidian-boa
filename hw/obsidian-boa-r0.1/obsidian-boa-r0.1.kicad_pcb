@@ -2704,7 +2704,7 @@
       (net 72 "/GPIO34-~BTN") (tstamp e63b2384-0d9a-4675-aa7f-698c45a19f1b))
     (pad "1" smd roundrect (at -2.3 -1.125 180) (size 1 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 72 "/GPIO34-~BTN") (tstamp ab309ec6-87f6-47bb-830b-a04aebbe194d))
-    (model "${KIPRJMOD}/../lib/3d/PTS810SJG250SMTRLFS.stp"
+    (model "${KIPRJMOD}/../lib/3d/PTS810SJG250SMTRLFS.step"
       (offset (xyz 0 0 1.45))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
