@@ -356,6 +356,7 @@
           "/U0TXD",
           "/USB_N",
           "/USB_P",
+          "/VCC_SPI",
           "/iD+",
           "/iD-",
           "/xD+",
@@ -404,14 +405,14 @@
       },
       {
         "clearance": 0.15,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.16,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.275,
+        "diff_pair_width": 0.18,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB-D90",
         "nets": [],
-        "track_width": 0.275,
+        "track_width": 0.18,
         "via_diameter": 0.5,
         "via_drill": 0.25
       }
@@ -456,7 +457,7 @@
   },
   "sheets": [
     [
-      "aa2cf262-4a8f-4cf9-95e3-e3ee9bc7ed15",
+      "878d3b3c-f57e-4642-a0e6-b5a41b3fb1da",
       ""
     ]
   ],

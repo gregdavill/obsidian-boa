@@ -134,7 +134,7 @@
         (name "SPICS1" (effects (font (size 1.27 1.27))))
         (number "29" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -24.13 29.21 0) (length 3.81) hide
+      (pin input line (at -24.13 26.67 0) (length 3.81)
         (name "VDD_SPI" (effects (font (size 1.27 1.27))))
         (number "30" (effects (font (size 1.27 1.27))))
       )
