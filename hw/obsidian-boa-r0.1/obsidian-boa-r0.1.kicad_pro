@@ -305,19 +305,6 @@
     "classes": [
       {
         "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Default",
-        "nets": [],
-        "track_width": 0.15,
-        "via_diameter": 0.5,
-        "via_drill": 0.25
-      },
-      {
-        "clearance": 0.15,
         "diff_pair_gap": 0.8,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3,
@@ -345,7 +332,8 @@
     ],
     "meta": {
       "version": 0
-    }
+    },
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
@@ -383,7 +371,7 @@
   },
   "sheets": [
     [
-      "878d3b3c-f57e-4642-a0e6-b5a41b3fb1da",
+      "ac1533cd-3797-4503-85bd-ab73460f23f7",
       ""
     ]
   ],

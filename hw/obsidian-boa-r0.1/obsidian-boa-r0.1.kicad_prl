@@ -1,5 +1,19 @@
 {
+  "active_layer": 0,
   "board": {
+    "selection_filter": {
+      "dimensions": true,
+      "footprints": true,
+      "graphics": true,
+      "keepouts": true,
+      "lockedItems": true,
+      "otherItems": true,
+      "pads": true,
+      "text": true,
+      "tracks": true,
+      "vias": true,
+      "zones": true
+    },
     "visible_items": [
       0,
       1,
@@ -34,6 +48,7 @@
     ],
     "visible_layers": "3fffc_80000007"
   },
+  "hidden_nets": [],
   "meta": {
     "filename": "obsidian-boa-r0.1.kicad_prl",
     "version": 1
