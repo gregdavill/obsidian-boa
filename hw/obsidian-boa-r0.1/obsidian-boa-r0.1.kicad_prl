@@ -1,6 +1,18 @@
 {
   "active_layer": 0,
   "board": {
+    "active_layer": 0,
+    "active_layer_preset": "",
+    "hidden_nets": [],
+    "high_contrast_mode": 0,
+    "net_color_mode": 1,
+    "opacity": {
+      "pads": 1.0,
+      "tracks": 1.0,
+      "vias": 1.0,
+      "zones": 0.6
+    },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -46,11 +58,14 @@
       29,
       30
     ],
-    "visible_layers": "3fffc_80000007"
+    "visible_layers": "003fffc_80000007"
   },
   "hidden_nets": [],
   "meta": {
     "filename": "obsidian-boa-r0.1.kicad_prl",
-    "version": 1
+    "version": 2
+  },
+  "project": {
+    "files": []
   }
 }

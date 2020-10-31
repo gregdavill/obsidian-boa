@@ -102,7 +102,7 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.15,
+        0.25,
         0.15,
         0.2,
         0.3,
@@ -111,12 +111,13 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.5,
-          "drill": 0.25
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_use_no_outline": false
-    }
+    },
+    "layer_presets": []
   },
   "boards": [],
   "cvpcb": {
@@ -282,6 +283,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -290,7 +292,8 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "similar_labels": "error",
-      "unresolved_variable": "error"
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
     }
   },
   "libraries": {
@@ -304,30 +307,57 @@
   "net_settings": {
     "classes": [
       {
+        "bus_width": 6.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
         "clearance": 0.15,
         "diff_pair_gap": 0.8,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "S50",
         "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_drill": 0.25,
+        "wire_width": 6.0
       },
       {
+        "bus_width": 6.0,
         "clearance": 0.15,
         "diff_pair_gap": 0.16,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.18,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB-D90",
         "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_drill": 0.25,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -342,7 +372,8 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "icebreaker-bitsy.step",
-      "vmrl": ""
+      "vmrl": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -354,6 +385,10 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -366,12 +401,13 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
   "sheets": [
     [
-      "ac1533cd-3797-4503-85bd-ab73460f23f7",
+      "9c177f42-09f3-40d9-881f-b13fdd68f78b",
       ""
     ]
   ],
